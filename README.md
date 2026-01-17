@@ -1,36 +1,21 @@
-# rsud-ticketing-frontend
+# e-kinerja-frontend
+upload ke verner 
 
 struktur folder
 
+e-kinerja-frontend/
+├─ src/
+│  ├─ api/
+│  │  └─ client.ts
+│  ├─ pages/
+│  │  ├─ DashboardKabag.tsx
+│  │  ├─ DashboardDirektur.tsx
+│  │  └─ Archive.tsx
+│  ├─ App.tsx
+│  ├─ main.tsx
+│
+├─ index.html
+├─ vite.config.ts
+├─ package.json
+└─ .env.example
 
-├── frontend/
-│   ├── index.html
-│   ├── package.json
-│   ├── vite.config.js
-│   ├── .env.example
-│   └── src/
-│       ├── main.jsx
-│       ├── App.jsx
-│       ├── App.css
-│       ├── api.js
-│       ├── context/
-│       │   └── AuthContext.jsx
-│       └── components/
-│           ├── Dashboard.jsx
-│           ├── TicketModal.jsx
-│           ├── TicketList.jsx
-│           ├── NotificationSystem.jsx
-│           ├── VirtualizedTicketList.jsx
-│           ├── MaintenanceChecklist.jsx
-│           ├── BackupReports.jsx
-│           ├── EKinerjaReport.jsx
-│           └── components.css
-│
-├── database/
-│   ├── init.sql
-│   └── sample_data.sql
-│
-└── documentation/
-    ├── API_DOCS.md
-    ├── USER_GUIDE.md
-    └── DEPLOYMENT_GUIDE.md
